@@ -458,6 +458,7 @@ a:hover {
     justify-content: space-between;
 }
 .pricing--boxes--basic {
+    position: relative;
     background: #ffffff 0% 0% no-repeat padding-box;
     border: 1px solid var(--color-redish);
     border-radius: 18px;
@@ -465,6 +466,7 @@ a:hover {
     width: 372px;
     height: 461px;
     margin-top: 50px;
+    margin-bottom: 170px;
 }
 .pricing--boxes--basic-title {
     text-align: center;
@@ -511,4 +513,136 @@ a:hover {
     opacity: 1;
     margin-top: 34px;
     font-size: 20px;
+}
+.pricing--boxes--basic-price {
+    margin-top: 65px;
+    display: block;
+    text-align: center;
+    font: normal normal 300 46px/2px Open Sans;
+    letter-spacing: 0px;
+    color: #fb3b64;
+    opacity: 1;
+}
+.pricing--boxes--professional-price {
+    margin-top: 65px;
+    display: block;
+    text-align: center;
+    font: normal normal 300 46px/2px Open Sans;
+    letter-spacing: 0px;
+    color: #07ace6;
+    opacity: 1;
+}
+.pricing--boxes--premium-price {
+    margin-top: 65px;
+    display: block;
+    text-align: center;
+    font: normal normal 300 46px/2px Open Sans;
+    letter-spacing: 0px;
+    color: #55dfb4;
+    opacity: 1;
+}
+.limited-offer {
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+    font: normal normal bold 12px/1px Raleway;
+    letter-spacing: 0px;
+    color: #13253b;
+    opacity: 1;
+}
+.pricing--boxes--list--basic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+}
+.pricing--boxes--list--basic li {
+    text-align: center;
+    font: normal normal normal 14px/41px "Open Sans";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.pricing--boxes--list--professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.pricing--boxes--list--professional li {
+    text-align: center;
+    font: normal normal normal 14px/41px "Open Sans";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.pricing--boxes--list--premium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+}
+.pricing--boxes--list--premium li {
+    text-align: center;
+    font: normal normal normal 14px/41px "Open Sans";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.pricing--boxes--list-rdn-btn {
+    padding: 0;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 23px;
+    background-color: var(--color-redish);
+    font: normal normal bold 13px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    transform: translate(85%, 110%);
+}
+.pricing--boxes--list-blue-btn {
+    padding: 0;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 23px;
+    background-color: var(--color-primary);
+    font: normal normal bold 13px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    transform: translate(98%, 145%);
+}
+.pricing--boxes--list-grn-btn {
+    padding: 0;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 23px;
+    background-color: var(--color-green);
+    font: normal normal bold 13px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    transform: translate(85%, 110%);
+}
+.pricing--boxes--list--basic:first-child::before {
+    content: "";
+    position: absolute;
+    background-image: url("../assets/Checkmark.svg");
+    width: 11px;
+    height: 11px;
+    top: 0px;
 }
